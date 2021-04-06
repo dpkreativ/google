@@ -8,3 +8,59 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: auto;
+  height: 100%;
+}
+
+/* Navigation Bar styles */
+.navigation-bar {
+  position: relative;
+  height: 4rem;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.6rem 1.5rem;
+  /* background-color: lightgray; */
+}
+
+.navigation-bar a {
+  font-size: 0.9rem;
+  color: gray;
+}
+
+.nav-link {
+  margin: auto 0;
+  padding-left: 1rem;
+}
+
+.app-drawer-box,
+.profile-box {
+  width: 2.8rem;
+  height: 2.8rem;
+  border-radius: 50%;
+}
+
+.app-drawer-box {
+  padding: 0.7rem;
+}
+
+.profile-box {
+  padding: 0.2rem;
+}
+
+.profile-image-box {
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.app-drawer-box:hover,
+.profile-box:hover {
+  background-color: lightgray;
+}

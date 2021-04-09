@@ -38,6 +38,10 @@ img {
   padding-left: 1rem;
 }
 
+.nav-link:hover {
+  text-decoration: underline;
+}
+
 .app-drawer-box,
 .profile-box {
   width: 2.8rem;
@@ -63,4 +67,75 @@ img {
 .app-drawer-box:hover,
 .profile-box:hover {
   background-color: lightgray;
+}
+
+/* Main Body styles */
+main {
+  max-width: 40rem;
+  margin: 0 auto;
+  /* background-color: lightgray; */
+}
+
+.google-image {
+  width: max-content;
+  margin: auto;
+}
+
+.form {
+  width: inherit;
+}
+
+.search-input-box {
+  width: inherit;
+  display: flex;
+  background-color: white;
+  border: 2px solid lightgray;
+  border-radius: 2rem;
+  padding: 0.2rem 1rem;
+  margin: 2rem 0;
+}
+
+.search-icon,
+.voice-search-icon {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin: auto;
+}
+
+.input-area {
+  max-width: 35.6rem;
+  width: 100%;
+  margin: 0 1rem;
+}
+
+input {
+  padding: 1rem 0;
+  width: inherit;
+  border: none;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+}
+
+input:focus {
+  outline: 1px solid rgba(255, 255, 255, 0);
+}
+
+.button-box {
+  text-align: center;
+}
+
+.button-box button {
+  padding: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  margin: 1rem;
+}
+
+.other-languages {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.languages a {
+  margin: 0 0.5rem;
 }

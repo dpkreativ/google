@@ -3,6 +3,16 @@
   font-size: 14px;
 }
 
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -16,6 +26,10 @@ a {
 img {
   width: auto;
   height: 100%;
+}
+
+.container {
+  flex: 1 0 auto;
 }
 
 /* Navigation Bar styles */
@@ -72,8 +86,8 @@ img {
 /* Main Body styles */
 main {
   max-width: 40rem;
-  margin: 0 auto;
-  /* background-color: lightgray; */
+  height: max-content;
+  margin: auto;
 }
 
 .google-image {
@@ -138,4 +152,27 @@ input:focus {
 
 .languages a {
   margin: 0 0.5rem;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #f2f2f2;
+  flex-shrink: 0;
+  color: grey;
+}
+
+footer a {
+  color: grey;
+  padding: 0.5rem;
+}
+
+.top-section,
+.bottom-section {
+  padding: 1.2rem 2rem;
+}
+
+.bottom-section {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid lightgray;
 }
